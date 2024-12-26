@@ -34,6 +34,6 @@ Weak Password:
 
 **Note**:
 
-This project is for educational purposes only. Please do not use it for storing real passwords in plain text.
+This project is for educational purposes only. Developed in VS Code for a UCSD Course from September to December 2023.
 Implement secure password hashing and storage practices in real-world applications.
 Disclaimer: The model training section is provided for educational purposes and may require additional refinement for real-world use.
