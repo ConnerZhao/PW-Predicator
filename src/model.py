@@ -6,7 +6,7 @@ from sklearn.impute import SimpleImputer
 from joblib import dump
 
 # Load the password dataset from the given file path
-data_path = '/Users/fupengzhao/Desktop/CSE 8A/Project/data/data.csv'
+data_path = 'data/data.csv'
 password_data = pd.read_csv(data_path, on_bad_lines='skip')
 
 # Get rid of any repeated data and shuffle everything to ensure randomness
@@ -51,5 +51,5 @@ accuracy = accuracy_score(y_test, y_pred)
 classification_rep = classification_report(y_test, y_pred)
 
 # Save the trained model to a file so we can use it later without having to retrain it
-dump(model, '/Users/fupengzhao/Desktop/CSE 8A/Project/trained model/model.joblib')
+dump(model, 'trained model/model.joblib')
 print('Model training complete.')

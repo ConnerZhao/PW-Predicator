@@ -7,7 +7,7 @@ import warnings
 warnings.filterwarnings("ignore", category=UserWarning, 
         message="X has feature names, but")
 # loading pre-traied model
-model = load('/Users/fupengzhao/Desktop/CSE 8A/Project/trained model/model.joblib')
+model = load('trained model/model.joblib')
 
 
 
