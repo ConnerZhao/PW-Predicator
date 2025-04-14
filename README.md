@@ -1,4 +1,4 @@
-# Password Strength Detector
+# Password Strength Predicator
 Protect yourself from modern-day threats with strong passwords!
 
 This project offers a user-friendly graphical user interface (GUI) to analyze the strength of user-provided passwords and a script for user to build and train their own model.
